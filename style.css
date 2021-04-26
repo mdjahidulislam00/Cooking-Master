@@ -1,0 +1,96 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    background-color:goldenrod;
+    min-height: 590px;
+}
+header{
+    height: 90px;
+    margin:0px 80px;
+}
+.logo{
+    float:left;
+}
+menu{
+    float:right;
+}
+menu ul{
+    list-style: none;
+}
+menu ul li{
+    display: inline;
+    padding:20px;
+}
+.search-bar{
+    width: 900px;
+    height: 70px;
+    margin:0px auto;  
+}
+.input-field{
+    float: left;
+}
+.input-area{
+    margin-left: 200px;
+    padding: 12px;
+    font-size: 20px;
+    width: 330px;
+    border-radius: 5px 0px 0px 5px;
+    border:none;
+}
+.button{
+ float:left;
+}
+.button-area{
+    padding: 12px;
+    font-size: 20px;
+    width: 120px;
+    border-radius: 0px 5px 5px 0px;
+    background-color:black;
+    color:white;
+    border:none;
+}
+.button-area:hover{
+    transform: scale(1.1);
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color:white;
+    height: 20px;
+}
+#meals-list-area{
+    width:980px;
+    margin:0px auto;
+    padding-bottom: 10px;
+    text-align:center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap:20px;
+}
+#meal-show{
+    width:220px;
+    border-radius:20px;
+    background-color: rgb(237, 240, 243);
+}
+#meal-show img{
+    border-radius:10px 10px 0px 0px;
+}
+#single-meal-details{
+    width:450px;
+    margin: 0px auto;
+    background-color:floralwhite;
+    display: none;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+#single-meal-details img{
+    border-radius: 10px 10px 0px 0px;
+}
+#single-meal-details h2, h4{
+    margin-left:10px;
+}
+footer{
+    text-align:center;
+}
